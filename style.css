@@ -37,6 +37,11 @@
     .carousel-caption {
         bottom: 15%;
     }
+    .carousel-item img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
 .carousel-caption h5 {
     color: aqua !important;
     font-size: clamp(18px, 4vw, 40px);
@@ -51,4 +56,5 @@
     text-shadow: white 0px 0px 5px;
 
 }
+
 
