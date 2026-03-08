@@ -33,6 +33,10 @@
     bottom: 30%;
     z-index: 2;
 }
+@media (max-width: 767px) {
+    .carousel-caption {
+        bottom: 20%;
+    }
 .carousel-caption h5 {
     color: aqua !important;
     font-size: clamp(18px, 4vw, 40px);
@@ -45,4 +49,5 @@
     margin: auto;
     font-size: clamp(14px, 3vw, 25px);
     text-shadow: white 0px 0px 5px;
+
 }
