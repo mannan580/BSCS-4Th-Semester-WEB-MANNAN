@@ -35,7 +35,7 @@
 }
 @media (max-width: 767px) {
     .carousel-caption {
-        bottom: 20%;
+        bottom: 15%;
     }
 .carousel-caption h5 {
     color: aqua !important;
@@ -51,3 +51,4 @@
     text-shadow: white 0px 0px 5px;
 
 }
+
