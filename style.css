@@ -38,7 +38,7 @@
         bottom: 15%;
     }
     .carousel-item img{
-        height: 100%;
+        height: 300px;
         width: 100%;
         object-fit: cover;
     }
@@ -56,5 +56,6 @@
     text-shadow: white 0px 0px 5px;
 
 }
+
 
 
