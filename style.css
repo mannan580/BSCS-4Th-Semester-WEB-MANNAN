@@ -1,0 +1,48 @@
+.navbar{
+    background-color: black;
+    padding: 1% !important;
+}
+.nav-link{
+    color: white !important;
+    transition: 0.5s;
+}
+.nav-link:hover{
+    color: aqua !important;
+    transition: 0.8s;
+}
+.navbar-brand span{
+    color: aqua !important;
+    text-shadow: aqua 0px 0px 5px;
+}
+.navbar-brand {
+    color: white !important;
+    text-shadow: white 0px 0px 5px;
+}
+.navbar-toggler{
+    background-color: rgb(187, 184, 184) !important;
+    border-radius: 5px !important;
+    transition: all  0.8s;
+}
+.navbar-toggler:hover{
+    background-color: rgb(187, 184, 184) !important;
+    border-radius: 5px !important;
+    transform: scale(1.05);
+    transition: all  0.8s;
+}
+.carousel-caption {
+    bottom: 30%;
+    z-index: 2;
+}
+.carousel-caption h5 {
+    color: aqua !important;
+    font-size: clamp(18px, 4vw, 40px);
+    font-weight: 700;
+    text-shadow: aqua 0px 0px 5px;
+}
+.carousel-caption p {
+    color: white !important;
+    width: 50%;
+    margin: auto;
+    font-size: clamp(14px, 3vw, 25px);
+    text-shadow: white 0px 0px 5px;
+}
